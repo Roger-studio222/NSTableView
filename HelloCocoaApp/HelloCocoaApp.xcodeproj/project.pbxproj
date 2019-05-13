@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7E2CC0A228921E700261DD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2CC09228921E700261DD5 /* AppDelegate.m */; };
+		F7E2CC0D228921E700261DD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2CC0C228921E700261DD5 /* ViewController.m */; };
+		F7E2CC0F228921E800261DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E2CC0E228921E800261DD5 /* Assets.xcassets */; };
+		F7E2CC12228921E800261DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E2CC10228921E800261DD5 /* Main.storyboard */; };
+		F7E2CC15228921E800261DD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2CC14228921E800261DD5 /* main.m */; };
+		F7E2CC1E228922D000261DD5 /* TableDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E2CC1D228922D000261DD5 /* TableDataList.m */; };
+		F7E2CC222289272800261DD5 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = F7E2CC212289272800261DD5 /* Resources */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7E2CC05228921E700261DD5 /* HelloCocoaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E2CC08228921E700261DD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7E2CC09228921E700261DD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7E2CC0B228921E700261DD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7E2CC0C228921E700261DD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7E2CC0E228921E800261DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7E2CC11228921E800261DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7E2CC13228921E800261DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E2CC14228921E800261DD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7E2CC16228921E800261DD5 /* HelloCocoaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloCocoaApp.entitlements; sourceTree = "<group>"; };
+		F7E2CC1C228922CF00261DD5 /* TableDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDataList.h; sourceTree = "<group>"; };
+		F7E2CC1D228922D000261DD5 /* TableDataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDataList.m; sourceTree = "<group>"; };
+		F7E2CC212289272800261DD5 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = HelloCocoaApp/Resources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E2CC02228921E700261DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7E2CBFC228921E700261DD5 = {
+			isa = PBXGroup;
+			children = (
+				F7E2CC212289272800261DD5 /* Resources */,
+				F7E2CC07228921E700261DD5 /* HelloCocoaApp */,
+				F7E2CC06228921E700261DD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E2CC06228921E700261DD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E2CC05228921E700261DD5 /* HelloCocoaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E2CC07228921E700261DD5 /* HelloCocoaApp */ = {
+			isa = PBXGroup;
+			children = (
+				F7E2CC08228921E700261DD5 /* AppDelegate.h */,
+				F7E2CC09228921E700261DD5 /* AppDelegate.m */,
+				F7E2CC0B228921E700261DD5 /* ViewController.h */,
+				F7E2CC0C228921E700261DD5 /* ViewController.m */,
+				F7E2CC0E228921E800261DD5 /* Assets.xcassets */,
+				F7E2CC10228921E800261DD5 /* Main.storyboard */,
+				F7E2CC1C228922CF00261DD5 /* TableDataList.h */,
+				F7E2CC1D228922D000261DD5 /* TableDataList.m */,
+				F7E2CC13228921E800261DD5 /* Info.plist */,
+				F7E2CC14228921E800261DD5 /* main.m */,
+				F7E2CC16228921E800261DD5 /* HelloCocoaApp.entitlements */,
+			);
+			path = HelloCocoaApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7E2CC04228921E700261DD5 /* HelloCocoaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E2CC19228921E800261DD5 /* Build configuration list for PBXNativeTarget "HelloCocoaApp" */;
+			buildPhases = (
+				F7E2CC01228921E700261DD5 /* Sources */,
+				F7E2CC02228921E700261DD5 /* Frameworks */,
+				F7E2CC03228921E700261DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCocoaApp;
+			productName = HelloCocoaApp;
+			productReference = F7E2CC05228921E700261DD5 /* HelloCocoaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E2CBFD228921E700261DD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					green,
+				);
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Vidyo;
+				TargetAttributes = {
+					F7E2CC04228921E700261DD5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F7E2CC00228921E700261DD5 /* Build configuration list for PBXProject "HelloCocoaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7E2CBFC228921E700261DD5;
+			productRefGroup = F7E2CC06228921E700261DD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E2CC04228921E700261DD5 /* HelloCocoaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E2CC03228921E700261DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E2CC222289272800261DD5 /* Resources in Resources */,
+				F7E2CC0F228921E800261DD5 /* Assets.xcassets in Resources */,
+				F7E2CC12228921E800261DD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E2CC01228921E700261DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E2CC1E228922D000261DD5 /* TableDataList.m in Sources */,
+				F7E2CC0D228921E700261DD5 /* ViewController.m in Sources */,
+				F7E2CC15228921E800261DD5 /* main.m in Sources */,
+				F7E2CC0A228921E700261DD5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7E2CC10228921E800261DD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E2CC11228921E800261DD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7E2CC17228921E800261DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7E2CC18228921E800261DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F7E2CC1A228921E800261DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloCocoaApp/HelloCocoaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/bin";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/bin";
+				DEVELOPMENT_TEAM = F55H7SW6HW;
+				INFOPLIST_FILE = HelloCocoaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vidyo.HelloCocoaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7E2CC1B228921E800261DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloCocoaApp/HelloCocoaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/bin";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/bin";
+				DEVELOPMENT_TEAM = F55H7SW6HW;
+				INFOPLIST_FILE = HelloCocoaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vidyo.HelloCocoaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E2CC00228921E700261DD5 /* Build configuration list for PBXProject "HelloCocoaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E2CC17228921E800261DD5 /* Debug */,
+				F7E2CC18228921E800261DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E2CC19228921E800261DD5 /* Build configuration list for PBXNativeTarget "HelloCocoaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E2CC1A228921E800261DD5 /* Debug */,
+				F7E2CC1B228921E800261DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7E2CBFD228921E700261DD5 /* Project object */;
+}
